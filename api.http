@@ -1,0 +1,30 @@
+GET https://jsonplaceholder.typicode.com/posts
+
+###
+
+GET https://jsonplaceholder.typicode.com/posts/1
+
+###
+
+POST https://jsonplaceholder.typicode.com/posts
+Content-Type: application/json
+
+{
+  "title": "my journey to software engineer",
+  "body": "It was an interesting one"
+}
+
+###
+
+PUT https://jsonplaceholder.typicode.com/posts/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "title": "my journey to software engineer",
+  "body": "It was an interesting one"
+}
+
+###
+
+DELETE https://jsonplaceholder.typicode.com/posts/1
